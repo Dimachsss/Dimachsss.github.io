@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="PainterCSS.css">
+        <title>PainterV3</title>
+    </head>
+    <body>
+        <div class="controls">
+
+            <label for="fill"> Fill</label>
+            <input type="checkbox" id="fill">
+
+            <label for="eraser"> Eraser</label>
+            <input type="checkbox" id="eraser">
+
+            <label for="red">Red</label>
+            <input type="radio" name="color" value="#ff0000">
+
+            <label for="blue">Blue</label>
+            <input type="radio" name="color" value="#0000ff">
+
+            <label for="green">Green</label>
+            <input type="radio" name="color" value="#00ff00">
+
+            <label for="yellow">YELLow</label>
+            <input type="radio" name="color" value="#ffff00">
+
+            <input type="color" id="pallete">
+
+            <button id="save">Save image</button>
+            <input id="widthInput">Width</input>
+            <input id="heightInput">Height</input>
+
+        </div>
+        <div class="container" id="board"></div>
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+        <script src="PainterJava.js"></script>
+    </body>
+</html>
